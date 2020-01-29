@@ -12,6 +12,9 @@ function scopeDemo(x1) {
         var x = 0;
     }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5d8fe604b09a7977b9cf21310e957ee9c41efca7
 scopeDemo(x);
 console.log(x);

@@ -6,3 +6,13 @@ The *ice* folder contains in-class exercises.
 
 ## About Me
 This should be replaced.
+
+## Merging
+ 1. Item 1 [Google](http://www.google.com)
+ 1. Item 2
+ 1. Item 3
+This is the change.
+
+## Conflicts
+
+This section represents code on the server that isn't on the local repository.
