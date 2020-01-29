@@ -5,14 +5,6 @@ This repository contains work completed during Spring 2020 in Dr. Murray's DIG46
 The *ice* folder contains in-class exercises. 
 
 ## About Me
-This should be replaced.
+https://www.linkedin.com/in/samantha-skurnick-120b9019a/
 
-## Merging
- 1. Item 1 [Google](http://www.google.com)
- 1. Item 2
- 1. Item 3
-This is the change.
-
-## Conflicts
-
-This section represents code on the server that isn't on the local repository.
+I am seeking a position doing some sort of design work for the social media platforms for a company.
