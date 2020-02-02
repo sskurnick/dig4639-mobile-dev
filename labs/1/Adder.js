@@ -5,8 +5,8 @@ class Adder {
         this.b = b;
     }
 
-    sum (a,b) {
-        return (this.a + this.b);
+    sum(a,b) {
+        return(this.a + this.b);
     }
 
     render() {
