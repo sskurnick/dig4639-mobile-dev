@@ -14,9 +14,13 @@ function runOnLoad()
 }
 
 function onClick() {
+    if(input.value != "") {
+        var newTask = new Task({content:input.value,done:false});
+        element.appendChild(newTask.render());
+        document.getElementById("taskText").value = "";
+    }
     console.log("clicked!");
-    var newTask = new Task({content:input.value,done:false});
-    element.appendChild(newTask.render());
 }
 
+    
 window.addEventListener("DOMContentLoaded", runOnLoad);
