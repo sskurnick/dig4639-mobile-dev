@@ -1,5 +1,5 @@
 
-class Card {
+class Element {
     set component(component) {
       this.component = component;
 
@@ -18,3 +18,5 @@ class Card {
     }
   
   }
+
+  export default Element;
