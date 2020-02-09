@@ -13,7 +13,7 @@ class Card {
       this.element = document.createElement(elementTag);
       document.body.appendChild(this.element);
     }
-  
+  gi
     render() {
       this.element.innerHTML = this.component.render();
     }
