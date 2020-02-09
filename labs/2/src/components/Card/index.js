@@ -1,24 +1,19 @@
 import "./index.css"
 
 class Card {
-    set component(component) {
-      this.component = component;
+  constructor (props) {
       this.props = props;
-    }
-    get component() {
-      return this.component;
-    }
-    
-    constructor(elementTag) {
-      this.element = document.createElement(elementTag);
-      document.body.appendChild(this.element);
-    }
-    
-    render() {
-      this.element.innerHTML = this.component.render();
-    }
-  
+      this.element = document.createElement("div");
+      span.element.innerHTML = this.props.content;
+      this.element.className = "card";
   }
+  
+  render() {
+      return this.element;
+  }  
+}
+
+
 
 export default Card;
 
