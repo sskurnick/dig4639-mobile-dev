@@ -7,8 +7,8 @@ class Card {
     }
     get component() {
       return this.component;
-      return this.props;
     }
+    
     constructor(elementTag) {
       this.element = document.createElement(elementTag);
       document.body.appendChild(this.element);
