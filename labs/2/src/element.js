@@ -8,8 +8,8 @@ class Element {
       return this.component;
     }
     
-    constructor(elementTag) {
-      this.element = document.createElement(elementTag);
+    constructor(element) {
+      this.element = document.createElement(element);
       document.body.appendChild(this.element);
     }
 
