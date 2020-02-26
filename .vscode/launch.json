@@ -29,17 +29,7 @@
             "request": "launch",
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:8000",
-<<<<<<< HEAD
             "webRoot": "${workspaceFolder}/ice/w2a"
-=======
-            "webRoot": "${workspaceFolder}/ice/w4/src",
-            "trace":"verbose",
-            "breakOnLoad": true,
-            "sourceMaps": true,
-            "sourceMapPathOverrides": {
-              "*": "${webRoot}/*"
-            }
->>>>>>> 5d8fe604b09a7977b9cf21310e957ee9c41efca7
         }
     ]
 }
