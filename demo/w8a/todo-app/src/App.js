@@ -4,13 +4,13 @@ import './App.css';
 
 const todoList = [
   {
-      content: 'Task 1', priority: 2, completed: true
+    content: 'Task 1', priority: 2, completed: true
   },
   {
-      content: 'Task 2', priority: 1, completed: true
+    content: 'Task 2', priority: 1, completed: true
   },
   {
-      content: 'Task 3', priority: 3, completed: false
+    content: 'Task 3', priority: 3, completed: false
   }
 ]
 
@@ -35,7 +35,7 @@ function App() {
 
   return (
     todoList.filter((v) => v.completed).map(
-        (v) => <TodoItem priority={v.priority} content={v.content} completed={v.completed}/>)
+      (v) => <TodoItem priority={v.priority} content={v.content} completed={v.completed}/>)
   );
 }
 
