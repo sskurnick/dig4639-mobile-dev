@@ -40,7 +40,7 @@ const arrFun = (value) => value + 2
 const resultArray2 = myArray.map(arrFun)
 console.log(resultArray2)
 
-const resultArray3 = myArray.map((value) =>  value + 2)
+const resultArray3 = myArray.map((value) => value + 2)
 console.log(resultArray3)
 
 function printItems (arrayInput) {
@@ -55,25 +55,25 @@ function compareNumbers (a, b) {
 }
 printItems(myArray.sort(compareNumbers))
 
-//Arrow method version
+// Arrow method version
 printItems(myArray.sort((a, b) => a - b))
 
 const todoList = [
     {
-        content: 'Task 1', priority: 2, completed: true
+    content: 'Task 1', priority: 2, completed: true
     },
     {
-        content: 'Task 2', priority: 1, completed: true
+    content: 'Task 2', priority: 1, completed: true
     },
     {
-        content: 'Task 3', priority: 3, completed: false
+    content: 'Task 3', priority: 3, completed: false
     }
 ]
 
 console.log(todoList)
 
 function printTodo (arrayInput) {
-    const htmlArray = arrayInput.map((value) => 
+    const htmlArray = arrayInput.map((value) =>
     `<p${
     (value.completed) ? 'class="done"' : ''}>
     ${value.priority}: ${value.cotent}
@@ -96,4 +96,3 @@ function evalItem (item) {
 console.log(printTodo(todoList.filter(evalItem)).join('\n'))
 
 console.log(printTodo(todoList.filter((item) => item.completed)))
-
