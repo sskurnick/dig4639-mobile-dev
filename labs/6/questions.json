@@ -1,0 +1,89 @@
+[
+    {
+      "question": "What does UCF stand for?",
+      "possibleAnswers":
+      [
+        {"text":"University of Central Florida",
+        "correct":true },
+        {"text":"Under Construction Forever",
+          "correct":false
+        },
+        {"text":"U Can't Finish",
+          "correct":false
+        },
+        {"text":"Florida Technological University",
+          "correct": false
+        }
+      ]
+    },
+    {
+        "question": "What is the name of UCF's mascot?",
+        "possibleAnswers":
+        [
+          {"text":"Knightro",
+          "correct":true },
+          {"text":"Knugget",
+            "correct":false
+          },
+          {"text":"Citronaut",
+            "correct":false
+          },
+          {"text":"Knight",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "What is the course code for this class?",
+        "possibleAnswers":
+        [
+          {"text":"DIG3134",
+          "correct":false 
+          },
+          {"text":"DIG3716C",
+            "correct":false
+          },
+          {"text":"DIG4639C",
+            "correct":true
+          },
+          {"text":"DIG3811",
+            "correct": false
+          }
+        ]
+      }, 
+      {
+        "question": "Where is UCF located?",
+        "possibleAnswers":
+        [
+          {"text":"Tampa",
+          "correct":false 
+          },
+          {"text":"Orlando",
+            "correct":true
+          },
+          {"text":"Gainesville",
+            "correct":false
+          },
+          {"text":"Miami",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "question": "Is UCF the best?",
+        "possibleAnswers":
+        [
+          {"text":"No way",
+          "correct":false },
+          {"text":"What's UCF?",
+            "correct":false
+          },
+          {"text":"Nah",
+            "correct":false
+          },
+          {"text":"Go Knights, Charge On!",
+            "correct": true
+          }
+        ]
+      }
+  ]
