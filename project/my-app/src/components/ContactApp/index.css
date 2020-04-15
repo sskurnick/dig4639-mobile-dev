@@ -1,0 +1,136 @@
+body {
+    background: #ffffff;
+}
+
+fieldset {
+    background: white;
+    border: none;
+    display: block;
+    border-radius: 5px;
+    padding-top: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 40px;
+    margin: 10px auto 40px auto;
+    width: 50%;
+    padding: 5px;
+}
+
+h2 {
+    font-family: 'Arial';
+    text-align: center;
+    font-size: 30px;
+    border-top: 2px solid #86b4f0;
+    width: 30%;
+    margin: 0px auto 10px auto;
+    padding: 5px;
+}
+
+h3, p {
+    font-family: 'Arial';
+    text-align: center;
+    margin: 5px;
+}
+
+form {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+}
+
+input {
+    display: inline-block;
+    width: 60%;
+    margin: 10px;
+    border-radius: 5px;
+    height: 20px;
+    padding: 5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-column-gap: 18px;
+}
+
+.smallcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0px;
+    width: 30%;
+    margin: auto;
+}
+
+.left {
+    column-span: 1 /span 1;
+}
+
+.right {
+    column-span: 2 /span 1;
+}
+
+.right2 {
+    column-span: 2 /span 1;
+}
+
+.card {
+    border: 1px solid #a4a5a6;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #86b4f0;
+    color: white;
+    font-family: 'Arial';
+    width: 20%;
+    border-radius: 5px;
+    margin: auto;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: #5497f0;
+}
+
+.buttondiv {
+    text-align: right;
+}
+
+.contacts {
+    height: 97%;
+}
+
+@media only screen and (max-width: 800px) {
+  
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .left{
+        column-span: 1 / span 1;
+    }
+    .right{
+        column-span: 1 / span 1;
+        margin-top: 18px;
+    }
+    h1 {
+        font-size: 30px;
+        margin: 5px auto 20px auto;
+        width: 90%;
+    }
+    h2{
+        font-size: 20px;
+        width: 30%;
+        margin: 0px auto 5px auto; 
+    }
+    .containersmall{
+        width: 50%;
+    }
+
+}
